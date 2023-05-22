@@ -1,0 +1,303 @@
+html {
+  font-size: 16px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  height: 1.45;
+}
+
+#section-one {
+  background-image: url("./images/Hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+nav {
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.history {
+  display: flex;
+  align-items: center;
+}
+
+.history li {
+  margin-left: 30px;
+  list-style: none;
+}
+
+.history li a {
+  color: aliceblue;
+}
+
+.los {
+  margin: auto 0;
+  text-align: center;
+  font-size: 55px;
+  color: #63769D;
+}
+
+span {
+  color: gray;
+}
+
+#section-two {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.button li {
+  margin-left: 30px;
+  list-style: none;
+}
+
+.button li a {
+  color: #63769D;
+}
+
+#section-three {
+  background-image: url("./images/1\ mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.o-one {
+  padding: 50px;
+  padding-right: 250px;
+  padding-left: 250px;
+  justify-content: center;
+}
+
+.o-one h1 {
+  color: #63769D;
+}
+
+.zero-one {
+  margin: auto 0;
+  text-align: center;
+  font-size: 100px;
+  color: grey;
+}
+
+#section-four {
+  padding: 20px;
+  padding-right: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+.o-two {
+  padding: 40px;
+  padding-right: 250px;
+  padding-left: 250px;
+  justify-content: center;
+}
+
+.o-two h1 {
+  color: #63769D;
+}
+
+#section-six {
+  background-color: #414F6B;
+  padding: 10px;
+  display: flex;
+}
+
+.mountain {
+  /* padding: 10px; */
+  padding-right: 200px;
+  padding-left: 200px;
+  display: flex;
+  color: grey;
+  /* font-size: 12px; */
+}
+
+.mountain__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(187, 185, 185);
+  margin-right: 25px;
+  padding: 5px;
+  height: 100%;
+}
+
+.mountain__link--active {
+  color: #414F6B;
+  text-decoration: underline;
+  background-color: rgb(187, 185, 185);
+  font-weight: bold;
+}
+
+#section-seven {
+  background-image: url("./images/Tab\ Content.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  padding: 50px;
+  margin: auto;
+}
+
+
+.carousel {
+  background-color: #414F6B;
+  padding: 25px 0 0 35px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel__thumbnail__item {
+  margin-right: 8px;
+}
+
+.carousel__radios {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0 18px 0;
+}
+
+.carousel__radios__button {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 4px 0 0;
+}
+
+.carousel__radios__button--active {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.page-details {
+  display: flex;
+  align-items: flex-end;
+  color: #414F6B;
+}
+
+.page-details__title {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #414F6B;
+}
+
+.page-details__num {
+  font-size: 100px;
+  color: #414F6B;
+}
+
+#schedule {
+  background-image: url("./images/Tab\ Content.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.schedule {
+ 
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 2px;
+  max-width: max-content;
+  padding: 10px 40px;
+}
+
+.schedule__title {
+  text-transform: uppercase;
+  color: #414F6B;
+}
+
+
+
+.schedule__details__group {
+ margin: 20px 0 17px 0;
+}
+
+.schedule__item {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.schedule__item__date {
+  margin: 0 50px 0 0;
+}
+
+.schedule__item__title {
+  margin: 0;
+}
+
+.footer {
+  background-color: rgba(65, 79, 107, 1);
+  /* color:rgba(255, 246, 246, 0.82); */
+  color: #63769D;
+  font-size: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 30em) {
+  .los {
+    font-size: 26px;
+  }
+
+  @media screen and (max-width: 600px) {
+  .o-one{
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+   font-size: 14px;
+   justify-content: center;
+ 
+  }
+
+
+  
+.o-two {
+  padding: 0px;
+  padding-right: 50px;
+  padding-left: 50px;
+  justify-content: center;
+}
+
+.mountain {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.carousel__thumbnail img{
+  width: 300px;
+}
+.carousel__radios{
+  display: none;
+}
+footer{
+  font-size: 10px;
+}
+footer img{
+  width: 120px;
+}
+
+
+ }
+
+}
